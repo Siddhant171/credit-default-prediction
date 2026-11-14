@@ -1,0 +1,5 @@
+Model,Val_Brier,Val_PR_AUC,Val_ROC_AUC,Loss_tau_0.50 ($),Loss_tau_0.1304 ($),Empirical_Best_Tau,Min_Empirical_Loss ($)
+Ridge L2 (Uncalibrated),0.1415,0.5099,0.7483,7340500,4652500,0.134,4580500
+Ridge L2 (Isotonic Calibrated),0.1414,0.5056,0.7489,7064500,4654500,0.16,4632500
+RBF SVM (Platt Sigmoid),0.1449,0.5024,0.7204,7014500,5247500,0.154,5038000
+RBF SVM (Isotonic Calibrated),0.142,0.5036,0.7314,6857000,4747500,0.131,4748500
