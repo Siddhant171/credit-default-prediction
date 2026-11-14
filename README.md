@@ -2,7 +2,7 @@
 
 ES 335 final project by Tagalpallewar Abhishek Prashant (24110364) and Siddhantkumar Vinay Thute (24110373).
 
-**Project website:** GitHub Pages URL pending repository owner activation. The static site source is in [`docs/`](docs/).  
+**Project website:** https://siddhant171.github.io/credit-default-prediction/ (hosted from the team member's fork). The static site source is in [`docs/`](docs/).  
 **Repository:** https://github.com/TagalpallewarAbhishek/credit-default-prediction
 
 ## Question and data
@@ -44,7 +44,7 @@ The selected HistGradientBoosting model had validation PR-AUC 0.5526, ROC-AUC 0.
 
 - Representative false-negative and false-positive borrower-profile analysis awaits review. The website shows final aggregate counts and marks profile examples pending.
 - The planned notebooks are not yet present. The scripts above are the executable workflow and are the source for current saved results.
-- Repository owner must enable GitHub Pages with source `main` and folder `/docs`, then verify the public URL in a private browser window.
+- To host the canonical URL from the original repository, its owner must enable GitHub Pages with source `main` and folder `/docs`. The same site is already enabled on the team member's fork. Verify the public URL in a private browser window.
 
 ## Limitations
 
