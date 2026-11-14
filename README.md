@@ -63,7 +63,9 @@ The data describe Taiwan accounts in 2005. The dataset does not include actual l
 
 ## AI-use disclosure
 
-AI tools assisted with code, analysis workflow, and website wording/layout. The team remains responsible for checking computations, source citations, and claims against the saved data and code. **Pending team review:** add specific tools and the division of AI-assisted work before submission.
+AI tools assisted with code, analysis workflow, website wording/layout, and the original halftone hero illustration in `docs/assets/hero-ledger.webp`. The team remains responsible for checking computations, source citations, and claims against the saved data and code. **Pending team review:** add specific tools and the division of AI-assisted work before submission.
+
+The website's visual direction was inspired by the [GoShuin — Every stamp, a memory](https://www.awwwards.com/inspiration/desktop-goshuin-every-stamp-a-memory) example. Its artwork and interface assets were not reused.
 
 ## Citations
 
