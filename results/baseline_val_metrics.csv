@@ -1,0 +1,5 @@
+Model,Val_PR_AUC,Val_ROC_AUC,Val_Brier,Loss_at_0.50 ($),Loss_at_0.13 ($)
+Dummy (Majority),0.2211,0.5,0.2211,9950000,9950000
+Logistic Regression (Ridge L2),0.5099,0.7483,0.1415,7340500,4652500
+Logistic Regression (Lasso L1),0.5101,0.7382,0.1421,7300500,4905000
+SVM (RBF Kernel),0.5024,0.7204,0.1449,7014500,5247500
