@@ -1,0 +1,3 @@
+Model,Best_Params,CV_PR_AUC,Val_PR_AUC,Val_ROC_AUC,Val_Brier
+Random Forest,"{'clf__max_depth': 8, 'clf__min_samples_leaf': 2}",0.5632904409500552,0.5527397378431558,0.7770822729912042,0.1362991134172479
+HistGradientBoosting,"{'clf__learning_rate': 0.05, 'clf__max_leaf_nodes': 15}",0.565593736107823,0.5525679168541685,0.7800301077427079,0.13559157905018618
