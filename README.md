@@ -44,7 +44,18 @@ The selected HistGradientBoosting model had validation PR-AUC 0.5526, ROC-AUC 0.
 
 - Representative false-negative and false-positive borrower-profile analysis awaits review. The website shows final aggregate counts and marks profile examples pending.
 - The planned notebooks are not yet present. The scripts above are the executable workflow and are the source for current saved results.
-- To host the canonical URL from the original repository, its owner must enable GitHub Pages with source `main` and folder `/docs`. The same site is already enabled on the team member's fork. Verify the public URL in a private browser window.
+- To host the canonical URL from the original repository, its owner must enable GitHub Pages using GitHub Actions. The same site is already enabled on the team member's fork. Verify the public URL in a private browser window.
+
+## Publish with GitHub Actions
+
+The workflow in [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) uploads `docs/` and deploys it on pushes to `main` that change the site. The repository owner must enable Pages once:
+
+1. Open the original repository's **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Open **Actions → Deploy website to GitHub Pages → Run workflow**, select `main`, and run it.
+4. Wait for the `deploy` job to finish. Open the URL shown in **Settings → Pages** in a private browser window.
+
+The expected canonical URL is `https://tagalpallewarabhishek.github.io/credit-default-prediction/`. The owner needs admin or maintainer permission to change the Pages source. If the workflow is blocked, check **Settings → Actions → General** for Actions permissions and **Settings → Environments → github-pages** for deployment restrictions.
 
 ## Limitations
 

@@ -63,4 +63,9 @@ $('threshold').addEventListener('input',update);
 $('fn-cost').addEventListener('input',update);
 $('fp-cost').addEventListener('input',update);
 $('reset').addEventListener('click',() => { if (!records) return; $('threshold').value=studyThreshold; $('fn-cost').value=records.cost_fn; $('fp-cost').value=records.cost_fp; update(); });
+document.querySelectorAll('[data-fn-cost]').forEach((button) => button.addEventListener('click', () => {
+  $('fn-cost').value = button.dataset.fnCost;
+  $('fp-cost').value = button.dataset.fpCost;
+  update();
+}));
 start();
